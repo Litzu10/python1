@@ -1,1 +1,42 @@
 tester
+
+Microsoft Windows [版本 10.0.18362.657]
+(c) 2019 Microsoft Corporation. 著作權所有，並保留一切權利。
+
+C:\Users\litzu>cd C:\Users\litzu\Desktop
+
+C:\Users\litzu\Desktop>cd C:\Users\litzu\Desktop\python
+
+C:\Users\litzu\Desktop\python>git init
+Initialized empty Git repository in C:/Users/litzu/Desktop/python/.git/
+
+C:\Users\litzu\Desktop\python>git config --global user.email "lthlove123@gmail.com"
+
+C:\Users\litzu\Desktop\python>git config --global user.name "Litzu10"
+
+C:\Users\litzu\Desktop\python>git add .
+
+C:\Users\litzu\Desktop\python>git commit -m "try"
+[master (root-commit) 7c44a06] try
+ 1 file changed, 1 insertion(+)
+ create mode 100644 tester.txt
+
+C:\Users\litzu\Desktop\python>git remote add origin https://github.com/Litzu10/python1.git
+
+C:\Users\litzu\Desktop\python>git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+C:\Users\litzu\Desktop\python>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 212 bytes | 106.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Litzu10/python1.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\litzu\Desktop\python>
